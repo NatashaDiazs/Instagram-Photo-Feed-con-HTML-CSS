@@ -1,0 +1,13 @@
+header {
+    background-color: yellow;
+}
+
+body {
+    background-color: black;
+}
+
+.img1 {
+    background-color: aqua;
+    display: flex;
+    
+}
