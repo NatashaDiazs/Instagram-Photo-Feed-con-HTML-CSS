@@ -5,9 +5,10 @@ header {
 body {
     background-color: black;
 }
-
 .img1 {
-    background-color: aqua;
+    background-color: brown;
+}
+.texto {
     display: flex;
     
 }
