@@ -13,3 +13,7 @@ body {
     display: flex;
     
 }
+
+#cat {
+    width: 380px;
+}
