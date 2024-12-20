@@ -12,21 +12,22 @@ body {
 }
 
 .container { /*PAGINA COMPLETA*/
-    padding-left: 750px;
+    justify-items: center;
 }
 
-.img1 {
+.img1 {   /*ESTE ES CONTAINER DE CADA INFO*/
     background-color: brown;
-    width: 450px;
+    width: 550px;
 }
-.texto {
+.texto { /*ESTE ES LA INFO SOBRE IMG*/
     display: flex; 
     justify-content: space-between;
+    padding: 1px 18px;
 }
 
 .img2 {
     background-color: blueviolet;
-    width: 380px;
+    width: 550px;
 }
 
 .texto2 {
@@ -34,5 +35,5 @@ body {
 }
 
 #cat, #dog {
-    width: 380px;
+    width: 550px;
 }
