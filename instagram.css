@@ -1,25 +1,38 @@
 header {
-    background-color: yellow;
-    margin: 0;
-    
-}
+    justify-items: center;
+    color: white;
+    border: solid green 5px;
+    background-color: bisque;
+    margin-bottom: 50px;
+    }
 
 body {
-    background-color: black;
+    background-color: black; /*esto es solo para ver donde esta*/
+    margin: 0;
 }
+
+.container { /*PAGINA COMPLETA*/
+    padding-left: 750px;
+}
+
 .img1 {
     background-color: brown;
     width: 380px;
 }
 .texto {
     display: flex; 
+    justify-content: space-between;
+}
+
+.img2 {
+    background-color: blueviolet;
+    width: 380px;
+}
+
+.texto2 {
+    display: flex;   
 }
 
 #cat, #dog {
     width: 380px;
-}
-
-.container {
-    justify-content: center;
-    
 }
