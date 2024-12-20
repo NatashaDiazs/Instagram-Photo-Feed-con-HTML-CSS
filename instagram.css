@@ -7,13 +7,17 @@ body {
 }
 .img1 {
     background-color: brown;
-    width: 400px;
+    width: 380px;
 }
 .texto {
-    display: flex;
-    
+    display: flex; 
 }
 
-#cat {
+#cat, #dog {
     width: 380px;
+}
+
+.container {
+    justify-content: center;
+    
 }
