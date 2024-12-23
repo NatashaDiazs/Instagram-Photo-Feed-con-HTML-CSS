@@ -16,7 +16,7 @@ header {
 }
 
  /*contenedor de informacion*/
-.img1, .img2, .img3, .img4 {  
+.img1, .img2, .img3, .img4 { 
     background-color: black;
     color: white;
     width: 550px;
@@ -28,7 +28,10 @@ header {
     display: flex; 
     justify-content: space-between;
     padding: 1px 18px;
-    font-size: 17px;
+    font-size: 20px;
+}
+.icon {
+    margin-top: 20px;
 }
 
 #cat, #dog, #fly, #food{
@@ -51,23 +54,37 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
     left: 483px;
     z-index: 0.5;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 100px;
-    
+    border-radius: 100px;  
 }
 
 .d {
     max-height: 680px; /*mas grande para agregar puntos*/
 }
 
-.punto {
+.cont-punt {
+    display: flex;
+    gap: 6px;
+    padding-left: 60px;
+    padding-top: 95px;
+}
+
+.cont-punt :nth-child(even) {
+    background-color:rgb(56, 125, 230);
+}
+
+.punt:hover {
+    transform: scale(1.2);
+}
+
+.punt {
     position:relative;
     display: flex;
-    background-color: rgb(56, 125, 230);
     width: 7px;
     height: 7px;
-    border-radius: 50%;
     bottom: 90px;
-    left: 275px;
+    border-radius: 50%;
+    background-color: rgb(255, 246, 246, 0.3);
+    left: 200px;
 }
 
 div [class="d"] p {
