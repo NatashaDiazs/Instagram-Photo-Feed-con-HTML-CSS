@@ -46,17 +46,6 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
    text-align: left;
 }
 
-.rec {
-    position: relative;
-    width: 48px;
-    height:30px;
-    bottom: 650px;
-    left: 483px;
-    z-index: 0.5;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 100px;  
-}
-
 .d {
     max-height: 680px; /*mas grande para agregar puntos*/
 }
@@ -87,10 +76,21 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
     left: 200px;
 }
 
+.rec {
+    position: relative;
+    width: 48px;
+    height:30px;
+    bottom: 750px;
+    left: 484px;
+    z-index: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;  
+}
+
 div [class="d"] p {
     position: relative;
-    bottom: 690px;
-    left: 482px;
+    bottom: 790px;
+    left: 498px;
     color: rgb(255, 255, 255);
 }
 
