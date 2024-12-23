@@ -14,7 +14,7 @@ header {
     justify-items: center;
 }
 
-.img1, .img2 {   /*ESTE ES CONTAINER DE CADA INFO*/
+.img1, .img2, .img3, .img4 {   /*ESTE ES CONTAINER DE CADA INFO*/
     background-color: brown;
     width: 550px;
     margin-bottom: 50px;
