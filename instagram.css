@@ -1,13 +1,13 @@
 header {
     justify-items: center;
-    color: #567C8D;
-    background-color: #F5EFEB;
+    color: #F5EFEB;
+    background-color: #567C8D;
     margin-bottom: 50px;
     padding: 10px;
     }
 
 body {
-    background-color: black; /*esto es solo para ver donde esta*/
+    background-color: #F5EFEB; /*esto es solo para ver donde esta*/
     margin: 0;
 }
 
