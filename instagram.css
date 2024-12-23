@@ -38,7 +38,46 @@ header {
 
 p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
    padding-bottom: 15px;
-   padding-left: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
    text-align: left;
 }
 
+.rec {
+    position: relative;
+    width: 48px;
+    height:30px;
+    bottom: 650px;
+    left: 483px;
+    z-index: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    
+}
+
+.d {
+    max-height: 680px; /*mas grande para agregar puntos*/
+}
+
+.punto {
+    position:relative;
+    display: flex;
+    background-color: rgb(56, 125, 230);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    bottom: 90px;
+    left: 275px;
+}
+
+div [class="d"] p {
+    position: relative;
+    bottom: 690px;
+    left: 482px;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: #567C8D;
+    padding: 10px;
+}
