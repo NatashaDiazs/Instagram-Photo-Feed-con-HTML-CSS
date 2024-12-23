@@ -1,12 +1,12 @@
 body {
     background-color: #F5EFEB; 
     margin: 0;
+}
 
 header {
     justify-items: center;
     color: #F5EFEB;
     background-color: #567C8D;
-    margin-bottom: 50px;
     padding: 10px;
     }
 
@@ -17,9 +17,10 @@ header {
 .img1, .img2 {   /*ESTE ES CONTAINER DE CADA INFO*/
     background-color: brown;
     width: 550px;
-    
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.texto { /*ESTE ES LA INFO SOBRE IMG*/
+.texto, .texto2 { /*ESTE ES LA INFO SOBRE IMG*/
     display: flex; 
     justify-content: space-between;
     padding: 1px 18px;
@@ -30,10 +31,6 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
    padding-bottom: 15px;
    padding-left: 10px;
    text-align: left;
-}
-
-.texto2 {
-    display: flex;   
 }
 
 #cat, #dog {
