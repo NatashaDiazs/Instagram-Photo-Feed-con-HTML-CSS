@@ -26,12 +26,13 @@ header {
 
 .texto, .texto2, .texto3, .texto4 { 
     display: flex; 
-    justify-content: space-between;
     padding: 1px 18px;
     font-size: 20px;
+    font-size: 20px;
+    gap: 5px;
 }
 .icon {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 #cat, #dog, #fly, #food{
