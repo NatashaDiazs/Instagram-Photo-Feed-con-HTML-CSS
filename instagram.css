@@ -1,5 +1,5 @@
 body {
-    background-color: #F5EFEB; 
+    background-color: #e0d6d0; 
     margin: 0;
 }
 
@@ -15,12 +15,13 @@ header {
 }
 
 .img1, .img2, .img3, .img4 {   /*ESTE ES CONTAINER DE CADA INFO*/
-    background-color: brown;
+    background-color: black;
+    color: white;
     width: 550px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.texto, .texto2 { /*ESTE ES LA INFO SOBRE IMG*/
+.texto, .texto2, .texto3, .texto4 { /*ESTE ES LA INFO SOBRE IMG*/
     display: flex; 
     justify-content: space-between;
     padding: 1px 18px;
@@ -33,6 +34,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
    text-align: left;
 }
 
-#cat, #dog {
+#cat, #dog, #fly {
     width: 550px;
+    height: 660px;
 }
