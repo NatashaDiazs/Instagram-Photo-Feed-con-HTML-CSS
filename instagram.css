@@ -31,8 +31,13 @@ header {
     font-size: 20px;
     gap: 5px;
 }
-.icon {
+.icon, .perfil {
     margin-top: 22px;
+}
+
+.perfil {
+    height: 10px;
+    width: 12px;
 }
 
 #cat, #dog, #fly, #food{
@@ -48,7 +53,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
 }
 
 .d {
-    max-height: 680px; /*mas grande para agregar puntos*/
+    max-height: 680px; 
 }
 
 .cont-punt {
