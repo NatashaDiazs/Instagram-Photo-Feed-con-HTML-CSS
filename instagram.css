@@ -1,10 +1,12 @@
 body {
     background-color: #dbcfc8; 
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
-    justify-items: center;
+    justify-content: center;
+    display: flex;
     color: #F5EFEB;
     background-color: #567C8D;
     padding: 10px;
@@ -28,16 +30,18 @@ header {
     display: flex; 
     padding: 1px 18px;
     font-size: 20px;
-    font-size: 20px;
     gap: 5px;
 }
-.icon, .perfil {
+.icon {
     margin-top: 22px;
+    padding-left: 320px;
 }
 
 .perfil {
-    height: 10px;
-    width: 12px;
+    height: 30px;
+    width: 35px;
+    margin-top: 18px;
+    color: rgb(39, 151, 226);
 }
 
 #cat, #dog, #fly, #food{
@@ -94,6 +98,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
 }
 
 div [class="d"] p {
+    border-right: 0;
     position: relative;
     bottom: 790px;
     left: 498px;
@@ -101,6 +106,39 @@ div [class="d"] p {
 }
 
 footer {
+    display: flex;
     background-color: #567C8D;
-    padding: 10px;
+    height: 100px;
 }
+
+.cont-footer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#logo {
+    margin-bottom: 50px;
+}
+
+.social {
+    font-size: 25px;
+}
+
+#icon {
+    justify-content: space-between;
+    left: 50px; 
+}
+
+a {
+    text-decoration: none;
+    color: #F5EFEB;
+    gap: 7px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
