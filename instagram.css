@@ -100,7 +100,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
 
 /*enunciado de imagen*/
 
-div [class="d"] p {
+div [class="sombra"] p {
     border-right: 0;
     position: relative;
     bottom: 790px;
