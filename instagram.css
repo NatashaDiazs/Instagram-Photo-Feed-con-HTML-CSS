@@ -43,7 +43,7 @@ header {
     color: rgb(39, 151, 226);
 }
 
-.d {
+.sombra {
     max-height: 680px; 
 }
 
@@ -87,7 +87,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
 }
 
 /*sombra de numeros*/
-.rec {
+.rect {
     position: relative;
     width: 48px;
     height:30px;
