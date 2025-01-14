@@ -119,19 +119,14 @@ footer {
     margin-top: 40px;
 }
 
-/*configurar FOOTER*/ 
-
-#logo {
-    margin-bottom: 50px;
-}
-
-.social {
-    font-size: 25px;
-}
-
 #icon {
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 5px;
     left: 50px; 
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 25px;
 }
 
 .info {
@@ -139,8 +134,8 @@ footer {
     width: 550px;
     justify-content: space-around;
     display: flex;
-    background-color: rgb(215, 122, 9);
     justify-items: center;
+    padding-left: 150px;
 }
 
 a {
@@ -150,7 +145,11 @@ a {
     font-size: 20px;
     text-align: center;
     justify-content: space-around;
-    
+}
+
+a:hover {
+    color: black;
+    transform: scale(1.1);
 }
 
 
