@@ -134,6 +134,15 @@ footer {
     left: 50px; 
 }
 
+.info {
+    color: black;
+    width: 550px;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(215, 122, 9);
+    justify-items: center;
+}
+
 a {
     text-decoration: none;
     color: #F5EFEB;
@@ -141,6 +150,7 @@ a {
     font-size: 20px;
     text-align: center;
     justify-content: space-around;
+    
 }
 
 
