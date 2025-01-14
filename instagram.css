@@ -1,7 +1,6 @@
 body {
     background-color: #dbcfc8; 
     margin: 0;
-    overflow-x: hidden;
 }
 
 header {
@@ -44,9 +43,8 @@ header {
     color: rgb(39, 151, 226);
 }
 
-#cat, #dog, #fly, #food{
-    width: 550px;
-    height: 660px;
+.d {
+    max-height: 680px; 
 }
 
 p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
@@ -56,10 +54,12 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
    text-align: left;
 }
 
-.d {
-    max-height: 680px; 
+#cat, #dog, #fly, #food{
+    width: 550px;
+    height: 660px;
 }
 
+/*puntos debajo de imagen*/
 .cont-punt {
     display: flex;
     gap: 6px;
@@ -86,6 +86,7 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
     left: 200px;
 }
 
+/*sombra de numeros*/
 .rec {
     position: relative;
     width: 48px;
@@ -96,6 +97,8 @@ p:nth-child(3) { /*div[class="img1"], si quiero ser mas especifica con uno*/
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100px;  
 }
+
+/*enunciado de imagen*/
 
 div [class="d"] p {
     border-right: 0;
